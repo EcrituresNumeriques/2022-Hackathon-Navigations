@@ -13,7 +13,7 @@ L'idée globale du projet *Euclide* est d'assister les étudiantes et étudiants
 L'algorythme créé à partir de cette base de données utilise une dynamique vectoriel de type "cosine matching" 
 ___
 
-## Project Euclide (EN)
+## Project *Euclide* (EN)
 
 ### Goal
 
@@ -26,7 +26,7 @@ The overall idea of the *Euclide* project is to assist students in the translati
 The algorithm created from this database uses a dynamic vector "cosine matching" type
 ___
 
-## Progetto Euclide (IT)
+## Progetto *Euclide* (IT)
 
 ### Obiettivo
 
