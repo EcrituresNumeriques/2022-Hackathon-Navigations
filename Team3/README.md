@@ -6,11 +6,11 @@ L'idée globale du projet *ABC* est d'assister les étudiantes et étudiants dan
 
 ### Méthode
 
-*Chiron* utilise un enssemble de donné organisé en chaine de caratères. Chaque distique constitue une chaine. Le vocabuliare inclue dans ces chaine est décortiqué à partir du LEM. Les récurence sont comptabilisé dans l'enssemble de donnés pour chaque distiques. On retrouve dans cet essemble, en plus des récurences, les règles gramaaticales qui s'appliquent et les thèmes extra-textuels.
+*ABC* utilise un enssemble de donné organisé en chaine de caratères. Chaque distique constitue une chaine. Le vocabuliare inclue dans ces chaine est décortiqué à partir du LEM. Les récurence sont comptabilisé dans l'enssemble de donnés pour chaque distiques. On retrouve dans cet essemble, en plus des récurences, les règles gramaaticales qui s'appliquent et les thèmes extra-textuels.
 
 L'algorythme créé à partir de cette base de données utilise une dynamique vectoriel de type "cosine matching"
 
-## Chrion ABC (EN)
+## Project ABC (EN)
 
 ### Goal
 
