@@ -54,16 +54,22 @@ for node_1 in BOOKS:
             )
 
 
-edges = [{"source": a, "target": b, "value": value} for (a, b), value in edges.items() if value != 0]
+
+edges = [
+    {"source": int(a), "target": int(b), "value": value}
+    for (a, b), value in edges.items()
+    if value != 0
+]
 
 nodes = [value for _, value in BOOKS.items()]
-data={ "nodes": nodes, "links": edges}
+data = {"nodes": nodes, "links": edges}
+
 
 def save_encoded_json(result, path):
-    p=pathlib.Path(__file__).parent / path
-    str_result = json.dumps(result, indent=4, ensure_ascii=False).encode('utf-8')
-    with p.open('w+') as stream :
+    p = pathlib.Path(__file__).parent / path
+    str_result = json.dumps(result, indent=4, ensure_ascii=False).encode("utf-8")
+    with p.open("w+") as stream:
         stream.write(str_result.decode())
 
-save_encoded_json(data, "data.json")
 
+save_encoded_json(data, "data.json")
