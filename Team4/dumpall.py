@@ -32,5 +32,5 @@ def save_encoded_json(result, path):
 
 
 save_encoded_json(loadresources(url_books), "books.json")
-# save_encoded_json(loadresources(url_passages), "passages.json")
+save_encoded_json(loadresources(url_passages), "passages.json")
 
