@@ -45,7 +45,7 @@ for kw in KEYWORDS:
         matrix_kw.append({
             "cat": category,
             "ordre": epi_name,
-            "url": url,
+            "url": url.rsplit("?", 1)[0].replace('api/', ''),
             "name": name,
             "book": epi_name.split('.')[0]
         }   )
