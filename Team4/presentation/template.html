@@ -7,7 +7,7 @@
 <meta name="robots" content="noindex, nofollow"/>
 <title>$title$</title>
 <style>
-    body { font: 17px/1.5em "JetBrains Mono", monospace; margin: 0 auto 3em; padding: 2em 20px; max-width: 800px; color: #374054; }
+    body { font: 17px/1.5em "JetBrains Mono", monospace; margin: 0 auto 3em; padding: 2em 20px; max-width: 1200px; color: #374054; }
     nav ul, nav li { margin: 0; padding: 0; list-style-type: none; }
     header { text-align: center; margin-bottom: 3em; }
     nav { margin: 0 auto; max-width: 20em; }
@@ -18,13 +18,15 @@
     pre > code { color: #efeeed; }
     header { text-align: center; color: #3b4252; }
     header a { color: #4c566a; }
-    h1, h2, h3, h4 { color: #265D8A; font-size: 18px; font-weight: 600; margin: 1.5em 0 0; }
-    h1 { font-size: 23px; margin-bottom: 1.5em; text-transform: uppercase; text-shadow: 1px 1px 2px #f03d4d; }
-    h2 { font-size: 20px; text-transform: uppercase; text-shadow: 1px 2px 3px #F26419;}
-    h3 { font-size: 17px; }
+    h1, h2, h3, h4 { color: #265D8A; font-size: 18px; font-weight: 600; margin: 2em 0 0; line-height: 1em;}
+    h1 { font-size: 3.5em; margin-bottom: 1.5em; text-transform: uppercase; text-shadow: 2px 2px 1px #f03d4d; }
+    h2 { font-size: 2em; text-transform: uppercase; text-shadow: 2px 2px 1px #f03d4d;}
+    h3 { font-size: 1.5em; }
     p a:only-child:before { color: #f03d4d; content: '> '; }
     img { margin: auto; width: 90%;}
-
+    .resume { text-transform: uppercase; color: #ffffff; }
+    footer { margin-top: 2em; color: #909090; } 
+    .principe { margin: 2em -2em; border: dashed 3px #909090; border-radius: 8px; padding: 1em 2em; }
 /* style pour le slideshow */
 
 * {box-sizing: border-box}
@@ -79,9 +81,6 @@ img {vertical-align: middle;}
   right: 0;
   border-radius: 3px 0 0 3px;
 }
-
-    .resume { text-transform: uppercase; color: #ffffff; }
-    footer { margin-top: 2em; color: #f03d4d; } 
 </style>
 </head>
 <body>
@@ -90,7 +89,7 @@ img {vertical-align: middle;}
 <section class="metadata">
     <p>$for(authors)$
         $for(authors)$
-          $authors$<br>
+          $authors$ 
         $endfor$
     $endfor$</p>
     <p class="resume">$resume$</p>

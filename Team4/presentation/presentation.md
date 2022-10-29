@@ -9,7 +9,7 @@ authors:
 resume: "Visualiser l'Anthologie Grecque"
 footer: "CC BY-SA - Dans le cadre du hackathon Navigations anthologiques. L’Anthologie grecque à l’ère des Digital Classics"
 ---
-## Étape 1 : Visualisation des livres
+## Visuel 1 : Visualisation des livres
 
 :::{.principe}
 L'Anthologie Grecque est un recueil de textes issu de différentes éditions/compilations. Cette visualisation est une façon d'appréhender les livres qui composent l'Anthologie : quels peuvent être les liens entre ces livres qui se composent chacun d'un nombre variable d'épigrammes ? 
@@ -34,10 +34,16 @@ Un livre avec peu d'épigrammes mais beaucoup de mots-clefs est de couleur clair
 
 Chaque lien (hegde) est une ligne qui lie deux bulles. L'épaisseur de cette ligne varie en fonction du nombre de mots-clefs en commun dans les épigrammes des deux livres.
 
-![](et-01-01.jpg)
+![](media/GTA8.png)
 
+### Pistes d'amélioration
 
-## Étape 2 : Visualisation des mots-clés au sein d'un livre 
+- filter subview with book selection
+- better spread view with specifi algorithm (eg force atlas)
+- change range for colors
+- point to urls
+
+## Visuel 2 : Visualisation des mots-clés par catégories au sein d'un livre 
 
 :::{.principe}
 Pour un livre de l'Anthologie Grecque, nous souhaitons connaître l'évolution des mots-clefs d'une épigramme à une autre, en partant de la première épigramme jusqu'à la dernière du livre. Il s'agit donc de visualiser les épigrammes d'un même livre selon les mots-clés qui leur sont attribués.
@@ -52,26 +58,48 @@ Un premier rendu est de montrer l'évolution des mots-clefs dans le livre V de l
 
 Un deuxième rendu est de montrer l'évolution des mots-clefs dans le livre V de la catégorie "Motifs" : nous pouvons voir sur l'axe horizontal la présence des mots-clefs selon les épigrammes, leur redondance et les possibles associations récurrentes entre deux motifs ou plus.
 
-![](et-02-01.jpg)
+![](media/GTA10.png)
+
 
 :::{.bonus}
-## Évolution des visualisations 
 
-14h26 : 
+---
 
-![](https://codimd.s3.shivering-isles.com/demo/uploads/66736e7b-40eb-4785-a026-f54bedb2cb9d.png)
+## Résultats produits
 
-14h50 : 
+### Visuel 1 : Visualisation des livres
 
-![](https://codimd.s3.shivering-isles.com/demo/uploads/7aefe699-8746-4e37-b53b-0d003336e801.png)
+![](https://codimd.s3.shivering-isles.com/demo/uploads/6f295757-fa97-4945-90b8-53c70a2cc99a.png)
 
-14h52 : 
 
-![](https://codimd.s3.shivering-isles.com/demo/uploads/cccdf468-d7aa-49f9-8f22-7fe43e1ae6e7.png)
+<iframe width="100%" height="884" frameborder="0"
+  src="https://observablehq.com/embed/ec751287f491639c?cells=chart"></iframe>
 
-14h54 : 
+### Visuel 2 : Visualisation des mots-clés par catégories au sein d'un livre 
 
-![](https://codimd.s3.shivering-isles.com/demo/uploads/89f1deba-8c17-4a25-b005-5f738c1bafdd.png)
+#### Catégorie = Collections 
+
+<iframe width="100%" height="882" frameborder="0"
+  src="https://observablehq.com/embed/@lenamk/navigations-livre-5?cells=collections"></iframe>
  
+#### Catégorie = Divinités 
+
+<iframe width="100%" height="498" frameborder="0"
+  src="https://observablehq.com/embed/@lenamk/navigations-livre-5?cells=divinites"></iframe>
+ 
+#### Catégorie = Motifs 
+
+<iframe width="100%" height="882" frameborder="0"
+  src="https://observablehq.com/embed/@lenamk/navigations-livre-5?cells=motifs"></iframe>
+
+#### Catégorie = Personnes citées 
+
+<iframe width="100%" height="909" frameborder="0"
+  src="https://observablehq.com/embed/@lenamk/navigations-livre-5?cells=personnesCitees"></iframe>
+
+#### Toutes catégories confondues
+
+![](https://codimd.s3.shivering-isles.com/demo/uploads/d2388165-0842-4705-9b45-4cca5c027141.png)
+
  
 :::
