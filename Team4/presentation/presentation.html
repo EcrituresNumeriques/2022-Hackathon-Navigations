@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow"/>
+<title>Graphe ton Anthologie Grecque</title>
+<style>
+    body { font: 17px/1.5em "JetBrains Mono", monospace; margin: 0 auto 3em; padding: 2em 20px; max-width: 800px; color: #374054; }
+    nav ul, nav li { margin: 0; padding: 0; list-style-type: none; }
+    header { text-align: center; margin-bottom: 3em; }
+    nav { margin: 0 auto; max-width: 20em; }
+    a { color: inherit; }
+    a:hover { color: inherit; }
+    pre, code { font: 14px/1.5em Liberation Mono, Courier New, monospace; color: #F26419; }
+    pre { background: #252a35; padding: 1em; white-space: pre-wrap; word-break: keep-all; word-break: break-all; }
+    pre > code { color: #efeeed; }
+    header { text-align: center; color: #3b4252; }
+    header a { color: #4c566a; }
+    h1, h2, h3, h4 { color: #265D8A; font-size: 18px; font-weight: 600; margin: 1.5em 0 0; }
+    h1 { font-size: 23px; margin-bottom: 1.5em; text-transform: uppercase; text-shadow: 1px 1px 2px #f03d4d; }
+    h2 { font-size: 20px; text-transform: uppercase; }
+    h3 { font-size: 17px; }
+    p a:only-child:before { color: #f03d4d; content: '> '; }
+    img { margin: auto; width: 90%;}
+</style>
+</head>
+<body>
+<main>
+<h1>Graphe ton Anthologie Grecque</h1>
+<section class="metadata">
+    <p>                  Antoine<br>
+                              Enzo<br>
+                              Lena<br>
+                              Marianne<br>
+                              Margot<br>
+            </p>
+    <p>Visualiser l’Anthologie Grecque</p>
+</section>
+<h2 id="étape-1-visualisation-des-livres">Étape 1 : Visualisation des
+livres</h2>
+<h3 id="principe">Principe</h3>
+<p>L’Anthologie Grecque est un recueil de textes issu de différentes
+éditions/compilations. Cette visualisation est une façon d’appréhender
+les livres qui composent l’Anthologie : quels peuvent être les liens
+entre ces livres qui se composent chacun d’un nombre variable
+d’épigrammes ?</p>
+<p>Nous proposons de visualiser les liens entres les différents livres
+de l’Anthologie grâce aux mots-clés qui sont associés à chaque
+épigramme. Les liens entre les livres sont caractérisés par le nombre de
+mots-clés en commun entre les livres.</p>
+<h3 id="exemples">Exemples</h3>
+<p>Si le livre 1 et le livre 2 ont beaucoup de mots-clés en commun, le
+trait qui lie ces deux livres sera <em>épais</em>. Si le livre 1 et le
+livre 3 ont peu de mots-clés en commun, le trait qui lie ces deux livres
+sera <em>fin</em>.</p>
+<h3 id="des-nœuds-et-des-liens">Des nœuds et des liens</h3>
+<p>Les 16 livres seraient donc liés entre eux, il y aurait donc 120
+liens en tout.</p>
+<p>Nous commençons avec les 5 premiers livres — chacun étant considéré
+comme un <strong>nœud</strong> ou <em>node</em> —, ce qui fait 10
+<strong>liens</strong> ou <em>hedges</em>.</p>
+<h3 id="informations-affichées">Informations affichées</h3>
+<p>Chaque livre (nœud/node) est illustré par une <em>bulle</em>, avec
+son numéro inscrit à l’intérieur de sa bulle.</p>
+<p>La taille des livres (nœuds/nodes) varient en fonction du nombre de
+mots-clefs présents dans les épigrammes du livre. Leurs couleurs varient
+en intensité (ou dégradé) selon le nombre d’épigrammes qu’ils
+comportent.</p>
+<p>Un livre avec peu d’épigrammes mais beaucoup de mots-clefs est de
+couleur claire mais une grande taille, à la différence d’un livre avec
+beaucoup d’épigrammes mais peu de mots-clefs qui est petit mais de
+couleur foncée.</p>
+<p>Chaque lien (hegde) est une ligne qui lie deux bulles. L’épaisseur de
+cette ligne varie en fonction du nombre de mots-clefs en commun dans les
+épigrammes des deux livres.</p>
+<h2 id="étape-2-visualisation-des-mots-clés-au-sein-dun-livre">Étape 2 :
+Visualisation des mots-clés au sein d’un livre</h2>
+<h3 id="principe-1">Principe</h3>
+<p>Pour un livre de l’Anthologie Grecque, nous souhaitons connaître
+l’évolution des mots-clefs d’une épigramme à une autre, en partant de la
+première épigramme jusqu’à la dernière du livre.</p>
+<p>Pour simplifier la visualisation, nous ferons ce rendu sur l’échelle
+d’une catégorie de mots-clefs.</p>
+<p>Nous allons prendre comme témoin le livre V (5).</p>
+<h3 id="résultat-attendu">Résultat attendu</h3>
+<p>Un premier rendu permet de montrer l’évolution des mots-clefs dans le
+livre V de la catégorie “Collection” : nous pouvons voir sur l’axe
+horizontal les différentes sources (Méléagre, Agatias, etc.) qui ont
+constitué le livre V. Pour cette catégorie, logiquement, chaque
+épigramme ne contient qu’un seul mot-clef de la catégorie : en effet
+chaque épigramme appartient <em>originellement</em> à une
+collection/compilation particulière.</p>
+<p>Un deuxième rendu permet de montrer l’évaluation des mots-clefs dans
+le livre V de la catégorie “Motifs” : nous pouvons voir sur l’axe
+horizontal la présence des mots-clefs selon les épigrammes, leur
+redondance et les possibles associations récurrentes entre deux motifs
+ou plus.</p>
+<footer>
+    <p>CC BY-SA - Dans le cadre du hackathon Navigations anthologiques.
+L’Anthologie grecque à l’ère des Digital Classics</p>
+</footer>
+</main>
+</body>
+</html>
