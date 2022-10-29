@@ -2,7 +2,6 @@
 
 ## Projet ABC (FR)
 
-
 ### But
 
 L'idée globale du projet *ABC* est d'assister les étudiantes et étudiants dans la traduction de l'Anthologie Palatine. Cette intiative est née du colloque *Navigtion Anthologique* qui eut lieu à l'Université de Montréal du 27 au 29 octobre 2022. *ABC* agit comme un dictionnaire lexical et sémantique des termes précis du corpus de l'Anthologie. En plus des termes grecs, on retrouve des concepts gramaticaux propres au corpus. *ABC* accompagne de façon pédagogique et soutenu l'étudiante et l'étudiant tout au long de son processus de traduction en renoforcant le sentiment d'appartenance au texte. 
@@ -12,6 +11,7 @@ L'idée globale du projet *ABC* est d'assister les étudiantes et étudiants dan
 *ABC* utilise un enssemble de donné organisé en chaine de caratères. Chaque distique constitue une chaine. Le vocabuliare inclue dans ces chaine est décortiqué à partir du LEM. Les récurence sont comptabilisé dans l'enssemble de donnés pour chaque distiques. On retrouve dans cet essemble, en plus des récurences, les règles gramaaticales qui s'appliquent et les thèmes extra-textuels.
 
 L'algorythme créé à partir de cette base de données utilise une dynamique vectoriel de type "cosine matching"
+___
 
 ## Project ABC (EN)
 
@@ -24,6 +24,7 @@ The overall idea of the *ABC* project is to assist students in the translation o
 *ABC* uses a set of data organized in strings of characters. Each phrase constitutes a string. The vocabulary included in these strings is deconstructed from the lemma The recurrences are counted in the data set for each phrase. In addition to the recurrences, this dataset contains the grammatical rules that apply and the extra-textual themes.
 
 The algorithm created from this database uses a dynamic vector "cosine matching" type
+___
 
 ## Progetto ABC (IT)
 
