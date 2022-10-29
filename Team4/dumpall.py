@@ -9,6 +9,8 @@ parameters = {
 }
 
 url_books = 'http://anthologiagraeca.org/api/books'
+url_keywords = 'http://anthologiagraeca.org/api/keywords'
+url_keywords_categories = 'http://anthologiagraeca.org/api/keyword_categories'
 url_passages = 'http://anthologiagraeca.org/api/passages'
 def loadresources(url):
     results = []
@@ -31,6 +33,9 @@ def save_encoded_json(result, path):
         stream.write(str_result.decode())
 
 
-save_encoded_json(loadresources(url_books), "books.json")
-save_encoded_json(loadresources(url_passages), "passages.json")
+# save_encoded_json(loadresources(url_books), "books.json")
+# save_encoded_json(loadresources(url_books), "books.json")
+save_encoded_json(loadresources(url_keywords), "keywords.json")
+save_encoded_json(loadresources(url_keywords_categories), "keyword_categories.json")
+# save_encoded_json(loadresources(url_passages), "passages.json")
 

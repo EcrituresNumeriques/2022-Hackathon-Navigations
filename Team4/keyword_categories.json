@@ -1,0 +1,402 @@
+[
+    {
+        "url": "https://anthologiagraeca.org/api/keyword_categories/1/?format=json",
+        "names": [
+            {
+                "name": "Formes métriques",
+                "language": "fra"
+            },
+            {
+                "name": "Metric forms",
+                "language": "eng"
+            },
+            {
+                "name": "Metra",
+                "language": "lat"
+            },
+            {
+                "name": "Forme metriche",
+                "language": "ita"
+            },
+            {
+                "name": "Formas métricas",
+                "language": "por"
+            }
+        ]
+    },
+    {
+        "url": "https://anthologiagraeca.org/api/keyword_categories/2/?format=json",
+        "names": [
+            {
+                "name": "Parcours de lecture",
+                "language": "fra"
+            },
+            {
+                "name": "Reading paths",
+                "language": "eng"
+            },
+            {
+                "name": "Evolutiones litterales",
+                "language": "lat"
+            },
+            {
+                "name": "Percorsi di lettura",
+                "language": "ita"
+            },
+            {
+                "name": "Percursos de leitura",
+                "language": "por"
+            }
+        ]
+    },
+    {
+        "url": "https://anthologiagraeca.org/api/keyword_categories/3/?format=json",
+        "names": [
+            {
+                "name": "Genres",
+                "language": "fra"
+            },
+            {
+                "name": "Genres",
+                "language": "eng"
+            },
+            {
+                "name": "Genera",
+                "language": "lat"
+            },
+            {
+                "name": "Generi",
+                "language": "ita"
+            },
+            {
+                "name": "Gêneros",
+                "language": "por"
+            }
+        ]
+    },
+    {
+        "url": "https://anthologiagraeca.org/api/keyword_categories/4/?format=json",
+        "names": [
+            {
+                "name": "Époques",
+                "language": "fra"
+            },
+            {
+                "name": "Periods",
+                "language": "eng"
+            },
+            {
+                "name": "Tempora",
+                "language": "lat"
+            },
+            {
+                "name": "Periodi",
+                "language": "ita"
+            },
+            {
+                "name": "Épocas",
+                "language": "por"
+            }
+        ]
+    },
+    {
+        "url": "https://anthologiagraeca.org/api/keyword_categories/5/?format=json",
+        "names": [
+            {
+                "name": "Peuples, lieux",
+                "language": "fra"
+            },
+            {
+                "name": "Peoples, places",
+                "language": "eng"
+            },
+            {
+                "name": "Populi, loci",
+                "language": "lat"
+            },
+            {
+                "name": "Popoli, luoghi",
+                "language": "ita"
+            },
+            {
+                "name": "Povos, lugares",
+                "language": "por"
+            }
+        ]
+    },
+    {
+        "url": "https://anthologiagraeca.org/api/keyword_categories/6/?format=json",
+        "names": [
+            {
+                "name": "Poètes cités",
+                "language": "fra"
+            },
+            {
+                "name": "Quoted poets",
+                "language": "eng"
+            },
+            {
+                "name": "Poetae memorati",
+                "language": "lat"
+            },
+            {
+                "name": "Poeti citati",
+                "language": "ita"
+            },
+            {
+                "name": "Poetas citados",
+                "language": "por"
+            }
+        ]
+    },
+    {
+        "url": "https://anthologiagraeca.org/api/keyword_categories/7/?format=json",
+        "names": [
+            {
+                "name": "Divinités",
+                "language": "fra"
+            },
+            {
+                "name": "Deities",
+                "language": "eng"
+            },
+            {
+                "name": "Divinitates",
+                "language": "lat"
+            },
+            {
+                "name": "Divinità",
+                "language": "ita"
+            },
+            {
+                "name": "Divindades",
+                "language": "por"
+            }
+        ]
+    },
+    {
+        "url": "https://anthologiagraeca.org/api/keyword_categories/8/?format=json",
+        "names": [
+            {
+                "name": "Personnages célèbres ou historiques",
+                "language": "fra"
+            },
+            {
+                "name": "Famous or historical characters",
+                "language": "eng"
+            },
+            {
+                "name": "Egregii vel historici homines",
+                "language": "lat"
+            },
+            {
+                "name": "Personaggi famosi o storici",
+                "language": "ita"
+            },
+            {
+                "name": "Personagens famosos ou históricos",
+                "language": "por"
+            }
+        ]
+    },
+    {
+        "url": "https://anthologiagraeca.org/api/keyword_categories/9/?format=json",
+        "names": [
+            {
+                "name": "Personnes citées",
+                "language": "fra"
+            },
+            {
+                "name": "Quoted persons",
+                "language": "eng"
+            },
+            {
+                "name": "Homines memorati",
+                "language": "lat"
+            },
+            {
+                "name": "Persone citate",
+                "language": "ita"
+            },
+            {
+                "name": "Pessoas citadas",
+                "language": "por"
+            }
+        ]
+    },
+    {
+        "url": "https://anthologiagraeca.org/api/keyword_categories/10/?format=json",
+        "names": [
+            {
+                "name": "Motifs",
+                "language": "fra"
+            },
+            {
+                "name": "Motifs",
+                "language": "eng"
+            },
+            {
+                "name": "Themata",
+                "language": "lat"
+            },
+            {
+                "name": "Motivi",
+                "language": "ita"
+            },
+            {
+                "name": "Motivos",
+                "language": "por"
+            }
+        ]
+    },
+    {
+        "url": "https://anthologiagraeca.org/api/keyword_categories/11/?format=json",
+        "names": [
+            {
+                "name": "Validation",
+                "language": "fra"
+            },
+            {
+                "name": "Validation",
+                "language": "eng"
+            },
+            {
+                "name": "Contralectus",
+                "language": "lat"
+            },
+            {
+                "name": "Validazione",
+                "language": "ita"
+            },
+            {
+                "name": "Validação",
+                "language": "por"
+            }
+        ]
+    },
+    {
+        "url": "https://anthologiagraeca.org/api/keyword_categories/12/?format=json",
+        "names": [
+            {
+                "name": "Personnages mythiques, divinités mineures",
+                "language": "fra"
+            },
+            {
+                "name": "Mythical characters, minor deities",
+                "language": "eng"
+            },
+            {
+                "name": "Heroes mythologiae, dei minores",
+                "language": "lat"
+            },
+            {
+                "name": "Personaggi mitici, divinità minori",
+                "language": "ita"
+            },
+            {
+                "name": "Personagens míticos, divindades menores",
+                "language": "por"
+            }
+        ]
+    },
+    {
+        "url": "https://anthologiagraeca.org/api/keyword_categories/13/?format=json",
+        "names": [
+            {
+                "name": "Épithètes et épiclèses",
+                "language": "fra"
+            },
+            {
+                "name": "Epithets and epiclesis",
+                "language": "eng"
+            },
+            {
+                "name": "Epitheta epicleseisque",
+                "language": "lat"
+            },
+            {
+                "name": "Epiteti ed epiclesi",
+                "language": "ita"
+            },
+            {
+                "name": "Epítetos e epicleses",
+                "language": "por"
+            }
+        ]
+    },
+    {
+        "url": "https://anthologiagraeca.org/api/keyword_categories/14/?format=json",
+        "names": [
+            {
+                "name": "Collections",
+                "language": "fra"
+            },
+            {
+                "name": "Collections",
+                "language": "eng"
+            },
+            {
+                "name": "Collecteana",
+                "language": "lat"
+            },
+            {
+                "name": "Collezioni",
+                "language": "ita"
+            },
+            {
+                "name": "Coleções",
+                "language": "por"
+            }
+        ]
+    },
+    {
+        "url": "https://anthologiagraeca.org/api/keyword_categories/15/?format=json",
+        "names": [
+            {
+                "name": "Personnages récurrents",
+                "language": "fra"
+            },
+            {
+                "name": "Recurring characters",
+                "language": "eng"
+            },
+            {
+                "name": "Homines praesentes",
+                "language": "lat"
+            },
+            {
+                "name": "Personaggi ricorrenti",
+                "language": "ita"
+            },
+            {
+                "name": "Personagens recurrentes",
+                "language": "por"
+            }
+        ]
+    },
+    {
+        "url": "https://anthologiagraeca.org/api/keyword_categories/16/?format=json",
+        "names": [
+            {
+                "name": "Lieux imaginaires",
+                "language": "fra"
+            },
+            {
+                "name": "Imaginary places",
+                "language": "eng"
+            },
+            {
+                "name": "Loci ficti",
+                "language": "lat"
+            },
+            {
+                "name": "Luoghi immaginari",
+                "language": "ita"
+            },
+            {
+                "name": "Lugares imaginários",
+                "language": "por"
+            }
+        ]
+    }
+]
