@@ -25,7 +25,6 @@
     p a:only-child:before { color: #f03d4d; content: '> '; }
     img { margin: auto; width: 90%;}
 
-
 /* style pour le slideshow */
 
 * {box-sizing: border-box}
@@ -81,7 +80,8 @@ img {vertical-align: middle;}
   border-radius: 3px 0 0 3px;
 }
 
-
+    .resume { text-transform: uppercase; color: #ffffff; }
+    footer { margin-top: 2em; color: #f03d4d; } 
 </style>
 </head>
 <body>
@@ -93,7 +93,7 @@ img {vertical-align: middle;}
           $authors$<br>
         $endfor$
     $endfor$</p>
-    <p>$resume$</p>
+    <p class="resume">$resume$</p>
 </section>
 $body$
 
