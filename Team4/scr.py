@@ -39,8 +39,13 @@ for passage in PASSAGES:
     book_name = str(passage.get("book", {}).get("number", "undefined"))
     BOOKS[book_name]["list_id_epi"].append(passage.get("id"))
     BOOKS[book_name]["list_id_kw"].extend(passage.get("keywords"))
-    BOOKS[book_name]["nb_epi"] += 1
     BOOKS[book_name]["nb_kw"] += len(passage.get("keywords"))
+
+
+for book_name in BOOKS:
+    BOOKS[book_name]["list_id_epi"] = list(sorted(set(BOOKS[book_name]["list_id_epi"])))
+    BOOKS[book_name]["nb_epi"] = len(BOOKS[book_name]["list_id_epi"])
+
 
 edges = {}
 
