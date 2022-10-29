@@ -1,7 +1,7 @@
 ![](imageAP.jpeg )  
 
 > Βιβλίον εἰμι τετρίμμενον, νῦν ἀλλ'οὐκέτι χρεία. Σοι ὁ μ'ἔθηκεν, Αθήνη, μ'ὤλεσα τοῖς ἀριθμοῖσιν. 
-    Irene Stigliano 
+> Irene Stigliano 
 
 ## Projet *Euclide* (FR)
 
