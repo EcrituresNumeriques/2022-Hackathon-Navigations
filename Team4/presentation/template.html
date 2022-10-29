@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow"/>
+<title>$title$</title>
+<style>
+    body { font: 17px/1.5em "JetBrains Mono", monospace; margin: 0 auto 3em; padding: 2em 20px; max-width: 800px; color: #374054; }
+    nav ul, nav li { margin: 0; padding: 0; list-style-type: none; }
+    header { text-align: center; margin-bottom: 3em; }
+    nav { margin: 0 auto; max-width: 20em; }
+    a { color: inherit; }
+    a:hover { color: inherit; }
+    pre, code { font: 14px/1.5em Liberation Mono, Courier New, monospace; color: #F26419; }
+    pre { background: #252a35; padding: 1em; white-space: pre-wrap; word-break: keep-all; word-break: break-all; }
+    pre > code { color: #efeeed; }
+    header { text-align: center; color: #3b4252; }
+    header a { color: #4c566a; }
+    h1, h2, h3, h4 { color: #265D8A; font-size: 18px; font-weight: 600; margin: 1.5em 0 0; }
+    h1 { font-size: 23px; margin-bottom: 1.5em; text-transform: uppercase; text-shadow: 1px 1px 2px #f03d4d; }
+    h2 { font-size: 20px; text-transform: uppercase; }
+    h3 { font-size: 17px; }
+    p a:only-child:before { color: #f03d4d; content: '> '; }
+    img { margin: auto; width: 90%;}
+</style>
+</head>
+<body>
+<main>
+<h1>$title$</h1>
+<section class="metadata">
+    <p>$for(authors)$
+        $for(authors)$
+          $authors$<br>
+        $endfor$
+    $endfor$</p>
+    <p>$resume$</p>
+</section>
+$body$
+<footer>
+    <p>$footer$</p>
+</footer>
+</main>
+</body>
+</html>
