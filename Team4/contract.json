@@ -1,0 +1,36 @@
+{
+    "view1": {
+        "node_book": [
+            {
+                "name": "1",
+                "nb_epi": 0,
+                "list_id_epi": [
+                    123
+                ],
+                "nb_kw": 0,
+                "list_id_kw": []
+            }
+        ],
+        "edge_keyword": {}
+    },
+    "view2": {
+        "books": [
+            {
+                "name": "12",
+                "map_kw": [
+                    {
+                        "name": "",
+                        "caterory": "",
+                        "list_epi": [
+                            {
+                                "name": "",
+                                "id": "",
+                                "url": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
