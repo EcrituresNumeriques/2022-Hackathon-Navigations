@@ -1,5 +1,7 @@
 ![](imageAP.jpeg )  
 
+> Βιβλίον εἰμι τετρίμμενον, νῦν ἀλλ'οὐκέτι χρεία. Σοι ὁ μ'ἔθηκεν, Αθήνη, μ'ὤλεσα τοῖς ἀριθμοῖσιν.  
+
 ## Projet *Euclide* (FR)
 
 ### But
@@ -8,7 +10,7 @@ L'idée globale du projet *Euclide* est d'assister les étudiantes et étudiants
 
 ### Méthode
 
-*Euclide* utilise un enssemble de donné organisé en chaine de caratères. Chaque distique constitue une chaine. Le vocabuliare inclue dans ces chaine est décortiqué à partir du LEM. Les récurence sont comptabilisé dans l'enssemble de donnés pour chaque distiques. On retrouve dans cet essemble, en plus des récurences, les règles gramaaticales qui s'appliquent et les thèmes extra-textuels.
+*Euclide* utilise un ensemble de donné organisé en chaine de caratères. Chaque distique constitue une chaine. Le vocabuliare inclue dans ces chaine est décortiqué à partir du LEM. Les récurence sont comptabilisé dans l'enssemble de donnés pour chaque distiques. On retrouve dans cet essemble, en plus des récurences, les règles gramaaticales qui s'appliquent et les thèmes extra-textuels.
 
 L'algorythme créé à partir de cette base de données utilise une dynamique vectoriel de type "cosine matching" 
 ___
