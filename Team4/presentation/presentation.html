@@ -24,6 +24,7 @@
     h3 { font-size: 17px; }
     p a:only-child:before { color: #f03d4d; content: '> '; }
     img { margin: auto; width: 90%;}
+    .resume { text-transform: uppercase; }
 </style>
 </head>
 <body>
@@ -36,11 +37,11 @@
                               Marianne<br>
                               Margot<br>
             </p>
-    <p>Visualiser l’Anthologie Grecque</p>
+    <p class="resume">Visualiser l’Anthologie Grecque</p>
 </section>
 <h2 id="étape-1-visualisation-des-livres">Étape 1 : Visualisation des
 livres</h2>
-<h3 id="principe">Principe</h3>
+<div class="principe">
 <p>L’Anthologie Grecque est un recueil de textes issu de différentes
 éditions/compilations. Cette visualisation est une façon d’appréhender
 les livres qui composent l’Anthologie : quels peuvent être les liens
@@ -50,6 +51,7 @@ d’épigrammes ?</p>
 de l’Anthologie grâce aux mots-clés qui sont associés à chaque
 épigramme. Les liens entre les livres sont caractérisés par le nombre de
 mots-clés en commun entre les livres.</p>
+</div>
 <h3 id="exemples">Exemples</h3>
 <p>Si le livre 1 et le livre 2 ont beaucoup de mots-clés en commun, le
 trait qui lie ces deux livres sera <em>épais</em>. Si le livre 1 et le
@@ -75,28 +77,48 @@ couleur foncée.</p>
 <p>Chaque lien (hegde) est une ligne qui lie deux bulles. L’épaisseur de
 cette ligne varie en fonction du nombre de mots-clefs en commun dans les
 épigrammes des deux livres.</p>
+<p><img src="et-01-01.jpg" /></p>
 <h2 id="étape-2-visualisation-des-mots-clés-au-sein-dun-livre">Étape 2 :
 Visualisation des mots-clés au sein d’un livre</h2>
-<h3 id="principe-1">Principe</h3>
+<div class="principe">
 <p>Pour un livre de l’Anthologie Grecque, nous souhaitons connaître
 l’évolution des mots-clefs d’une épigramme à une autre, en partant de la
-première épigramme jusqu’à la dernière du livre.</p>
+première épigramme jusqu’à la dernière du livre. Il s’agit donc de
+visualiser les épigrammes d’un même livre selon les mots-clés qui leur
+sont attribués.</p>
 <p>Pour simplifier la visualisation, nous ferons ce rendu sur l’échelle
-d’une catégorie de mots-clefs.</p>
-<p>Nous allons prendre comme témoin le livre V (5).</p>
+d’une catégorie de mots-clefs :</p>
+</div>
+<p>Nous allons prendre comme témoin le livre V (5) car il a beaucoup
+d’épigrammes et une thématique facilement exploitable.</p>
 <h3 id="résultat-attendu">Résultat attendu</h3>
-<p>Un premier rendu permet de montrer l’évolution des mots-clefs dans le
-livre V de la catégorie “Collection” : nous pouvons voir sur l’axe
-horizontal les différentes sources (Méléagre, Agatias, etc.) qui ont
-constitué le livre V. Pour cette catégorie, logiquement, chaque
-épigramme ne contient qu’un seul mot-clef de la catégorie : en effet
-chaque épigramme appartient <em>originellement</em> à une
-collection/compilation particulière.</p>
-<p>Un deuxième rendu permet de montrer l’évaluation des mots-clefs dans
-le livre V de la catégorie “Motifs” : nous pouvons voir sur l’axe
+<p>Un premier rendu est de montrer l’évolution des mots-clefs dans le
+livre V de la catégorie “Collection” : afficher sur l’axe horizontal les
+différentes sources (Méléagre, Agatias, etc.) qui ont constitué le livre
+V. Pour cette catégorie, logiquement, chaque épigramme ne contient qu’un
+seul mot-clef de la catégorie : en effet chaque épigramme appartient
+<em>originellement</em> à une collection/compilation particulière.</p>
+<p>Un deuxième rendu est de montrer l’évolution des mots-clefs dans le
+livre V de la catégorie “Motifs” : nous pouvons voir sur l’axe
 horizontal la présence des mots-clefs selon les épigrammes, leur
 redondance et les possibles associations récurrentes entre deux motifs
 ou plus.</p>
+<p><img src="et-02-01.jpg" /></p>
+<section id="évolution-des-visualisations" class="bonus">
+<h2>Évolution des visualisations</h2>
+<p>14h26 :</p>
+<p><img
+src="https://codimd.s3.shivering-isles.com/demo/uploads/66736e7b-40eb-4785-a026-f54bedb2cb9d.png" /></p>
+<p>14h50 :</p>
+<p><img
+src="https://codimd.s3.shivering-isles.com/demo/uploads/7aefe699-8746-4e37-b53b-0d003336e801.png" /></p>
+<p>14h52 :</p>
+<p><img
+src="https://codimd.s3.shivering-isles.com/demo/uploads/cccdf468-d7aa-49f9-8f22-7fe43e1ae6e7.png" /></p>
+<p>14h54 :</p>
+<p><img
+src="https://codimd.s3.shivering-isles.com/demo/uploads/89f1deba-8c17-4a25-b005-5f738c1bafdd.png" /></p>
+</section>
 <footer>
     <p>CC BY-SA - Dans le cadre du hackathon Navigations anthologiques.
 L’Anthologie grecque à l’ère des Digital Classics</p>

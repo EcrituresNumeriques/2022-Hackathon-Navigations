@@ -11,10 +11,11 @@ footer: "CC BY-SA - Dans le cadre du hackathon Navigations anthologiques. L’An
 ---
 ## Étape 1 : Visualisation des livres
 
-### Principe
+:::{.principe}
 L'Anthologie Grecque est un recueil de textes issu de différentes éditions/compilations. Cette visualisation est une façon d'appréhender les livres qui composent l'Anthologie : quels peuvent être les liens entre ces livres qui se composent chacun d'un nombre variable d'épigrammes ? 
 
 Nous proposons de visualiser les liens entres les différents livres de l'Anthologie grâce aux mots-clés qui sont associés à chaque épigramme. Les liens entre les livres sont caractérisés par le nombre de mots-clés en commun entre les livres.
+:::
 
 ### Exemples
 Si le livre 1 et le livre 2 ont beaucoup de mots-clés en commun, le trait qui lie ces deux livres sera _épais_. Si le livre 1 et le livre 3 ont peu de mots-clés en commun, le trait qui lie ces deux livres sera _fin_.
@@ -33,17 +34,44 @@ Un livre avec peu d'épigrammes mais beaucoup de mots-clefs est de couleur clair
 
 Chaque lien (hegde) est une ligne qui lie deux bulles. L'épaisseur de cette ligne varie en fonction du nombre de mots-clefs en commun dans les épigrammes des deux livres.
 
+![](et-01-01.jpg)
+
 
 ## Étape 2 : Visualisation des mots-clés au sein d'un livre 
 
-### Principe
-Pour un livre de l'Anthologie Grecque, nous souhaitons connaître l'évolution des mots-clefs d'une épigramme à une autre, en partant de la première épigramme jusqu'à la dernière du livre. 
+:::{.principe}
+Pour un livre de l'Anthologie Grecque, nous souhaitons connaître l'évolution des mots-clefs d'une épigramme à une autre, en partant de la première épigramme jusqu'à la dernière du livre. Il s'agit donc de visualiser les épigrammes d'un même livre selon les mots-clés qui leur sont attribués.
 
-Pour simplifier la visualisation, nous ferons ce rendu sur l'échelle d'une catégorie de mots-clefs. 
+Pour simplifier la visualisation, nous ferons ce rendu sur l'échelle d'une catégorie de mots-clefs : 
+:::
 
-Nous allons prendre comme témoin le livre V (5).
+Nous allons prendre comme témoin le livre V (5) car il a beaucoup d'épigrammes et une thématique facilement exploitable.
 
 ### Résultat attendu
-Un premier rendu permet de montrer l'évolution des mots-clefs dans le livre V de la catégorie "Collection" : nous pouvons voir sur l'axe horizontal les différentes sources (Méléagre, Agatias, etc.) qui ont constitué le livre V. Pour cette catégorie, logiquement, chaque épigramme ne contient qu'un seul mot-clef de la catégorie : en effet chaque épigramme appartient _originellement_ à une collection/compilation particulière.
+Un premier rendu est de montrer l'évolution des mots-clefs dans le livre V de la catégorie "Collection" : afficher sur l'axe horizontal les différentes sources (Méléagre, Agatias, etc.) qui ont constitué le livre V. Pour cette catégorie, logiquement, chaque épigramme ne contient qu'un seul mot-clef de la catégorie : en effet chaque épigramme appartient _originellement_ à une collection/compilation particulière.
 
-Un deuxième rendu permet de montrer l'évaluation des mots-clefs dans le livre V de la catégorie "Motifs" : nous pouvons voir sur l'axe horizontal la présence des mots-clefs selon les épigrammes, leur redondance et les possibles associations récurrentes entre deux motifs ou plus. 
+Un deuxième rendu est de montrer l'évolution des mots-clefs dans le livre V de la catégorie "Motifs" : nous pouvons voir sur l'axe horizontal la présence des mots-clefs selon les épigrammes, leur redondance et les possibles associations récurrentes entre deux motifs ou plus.
+
+![](et-02-01.jpg)
+
+:::{.bonus}
+## Évolution des visualisations 
+
+14h26 : 
+
+![](https://codimd.s3.shivering-isles.com/demo/uploads/66736e7b-40eb-4785-a026-f54bedb2cb9d.png)
+
+14h50 : 
+
+![](https://codimd.s3.shivering-isles.com/demo/uploads/7aefe699-8746-4e37-b53b-0d003336e801.png)
+
+14h52 : 
+
+![](https://codimd.s3.shivering-isles.com/demo/uploads/cccdf468-d7aa-49f9-8f22-7fe43e1ae6e7.png)
+
+14h54 : 
+
+![](https://codimd.s3.shivering-isles.com/demo/uploads/89f1deba-8c17-4a25-b005-5f738c1bafdd.png)
+ 
+ 
+:::
