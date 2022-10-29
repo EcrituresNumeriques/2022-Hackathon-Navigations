@@ -1,0 +1,66 @@
+[
+    {
+        "url": "https://anthologiagraeca.org/api/books/9/?format=json",
+        "number": 1
+    },
+    {
+        "url": "https://anthologiagraeca.org/api/books/7/?format=json",
+        "number": 2
+    },
+    {
+        "url": "https://anthologiagraeca.org/api/books/10/?format=json",
+        "number": 3
+    },
+    {
+        "url": "https://anthologiagraeca.org/api/books/2/?format=json",
+        "number": 4
+    },
+    {
+        "url": "https://anthologiagraeca.org/api/books/1/?format=json",
+        "number": 5
+    },
+    {
+        "url": "https://anthologiagraeca.org/api/books/5/?format=json",
+        "number": 6
+    },
+    {
+        "url": "https://anthologiagraeca.org/api/books/3/?format=json",
+        "number": 7
+    },
+    {
+        "url": "https://anthologiagraeca.org/api/books/14/?format=json",
+        "number": 8
+    },
+    {
+        "url": "https://anthologiagraeca.org/api/books/4/?format=json",
+        "number": 9
+    },
+    {
+        "url": "https://anthologiagraeca.org/api/books/11/?format=json",
+        "number": 10
+    },
+    {
+        "url": "https://anthologiagraeca.org/api/books/6/?format=json",
+        "number": 11
+    },
+    {
+        "url": "https://anthologiagraeca.org/api/books/8/?format=json",
+        "number": 12
+    },
+    {
+        "url": "https://anthologiagraeca.org/api/books/17/?format=json",
+        "number": 13
+    },
+    {
+        "url": "https://anthologiagraeca.org/api/books/15/?format=json",
+        "number": 14
+    },
+    {
+        "url": "https://anthologiagraeca.org/api/books/18/?format=json",
+        "number": 15
+    },
+    {
+        "url": "https://anthologiagraeca.org/api/books/16/?format=json",
+        "number": 16
+    }
+]
